@@ -133,7 +133,7 @@ or in more than 150 stores.`}><FaQuestionCircle size={15} color="gray"/></span>
         </p>
         <div className="flex items-center justify-between w-4/5 gap-4 mb-6">
           <p className="flex w-full justify-between items-center border rounded-md p-1">
-            <span>Electronically sign the agreement(s)</span>
+            <span className="max-md:text-xs">Electronically sign the agreement(s)</span>
             <span>
               <FaCheck color="green" />
             </span>
@@ -144,7 +144,7 @@ or in more than 150 stores.`}><FaQuestionCircle size={15} color="gray"/></span>
         </div>
         <div className="flex items-center justify-between w-4/5 gap-4">
           <p className="flex w-full justify-between items-center border rounded-md p-1">
-            <span>
+            <span className="max-md:text-xs">
               Non adult beverage Kroger market supplier waiver and release
             </span>
             <span>
@@ -162,7 +162,7 @@ or in more than 150 stores.`}><FaQuestionCircle size={15} color="gray"/></span>
         </p>
         <div className="flex items-center justify-between w-4/5 gap-4">
           <p className="flex w-full justify-between items-center border rounded-md p-1">
-            <span>Electronically sign the agreement(s)</span>
+            <span className="max-md:text-xs">Electronically sign the agreement(s)</span>
             <span>
               <FaCheck color="green" />
             </span>

@@ -122,15 +122,15 @@ function App() {
 
   return (
     <>
-      <div className="m-6">
+      <div className="max-md:m-0 max-md:mb-4 md:m-6">
         <div className="flex justify-between m-6">
           <div></div>
-          <span className="text-lg text-violet-600 font-medium">
+          <span className="text-lg text-violet-600 font-medium max-md:text-sm">
             Create New Account
           </span>
-          <span className=" text-violet-600 font-medium">Contact Us</span>
+          <span className=" text-violet-600 font-medium max-md:text-xs" >Contact Us</span>
         </div>
-        <div className="m-auto my-10 w-4/5 max-w-[1000px] shadow-custom rounded-xl border">
+        <div className="m-auto my-10 max-md:w-full  md:w-4/5 max-w-[1000px] shadow-custom rounded-xl border">
           <Pagination activeIndex={next} />
           {next === 1 && (
             <Profile setAllFields={setAllFields} allFields={allFields} />
@@ -147,7 +147,7 @@ function App() {
             <span className="mr-2">
               <MdKeyboardArrowLeft />
             </span>
-            <span>Back to Login</span>
+            <span className="max-md:text-xs">Back to Login</span>
           </button>
           {next === 2 && (
             <div className="flex gap-2 ">
@@ -158,14 +158,14 @@ function App() {
                 <span className="mr-2">
                   <MdKeyboardArrowLeft />
                 </span>
-                <span>Previous Step</span>
+                <span className="max-md:text-xs">Previous Step</span>
               </button>
               <button>
                 <button
                   className="text-white text-lg bg-violet-600 px-4 py-1 rounded-lg flex  items-center  transition duration-300"
                   onClick={handleSave}
                 >
-                  <span>Save</span>
+                  <span className="max-md:text-xs">Save</span>
                   <span className="mx-2">
                     <MdKeyboardArrowRight />
                   </span>
@@ -175,10 +175,10 @@ function App() {
           )}
           {next === 1 && (
             <button
-              className="text-white text-lg bg-violet-600 px-4 py-1 rounded-lg flex  items-center  transition duration-300"
+              className="text-white text-lg bg-violet-600 px-4 py-1 rounded-lg flex  items-center  transition duration-300 max-md:w-[100px]"
               onClick={handleNext}
             >
-              <span>Next Step</span>
+              <span className="max-md:text-xs">Next Step</span>
               <span className="mx-2">
                 <MdKeyboardArrowRight />
               </span>
