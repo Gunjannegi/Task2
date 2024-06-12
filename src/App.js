@@ -158,7 +158,7 @@ function App() {
                 <span className="mr-2">
                   <MdKeyboardArrowLeft />
                 </span>
-                <span className="max-md:text-xs">Previous Step</span>
+                <span className="max-md:text-xs">Previous</span>
               </button>
               <button>
                 <button
@@ -178,7 +178,7 @@ function App() {
               className="text-white text-lg bg-violet-600 px-4 py-1 rounded-lg flex  items-center  transition duration-300 max-md:w-[100px]"
               onClick={handleNext}
             >
-              <span className="max-md:text-xs">Next Step</span>
+              <span className="max-md:text-xs">Next</span>
               <span className="mx-2">
                 <MdKeyboardArrowRight />
               </span>
